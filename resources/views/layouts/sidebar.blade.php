@@ -32,21 +32,21 @@
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link" href="{{route('packet.index')}}">
         <i class="fas fa-fw fa-tablets"></i>
         <span>Paket</span></a>
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link" href="{{route('promo.index')}}">
         <i class="fas fa-fw fa-magnet"></i>
         <span>Promo</span></a>
 </li>
 
 <li class="nav-item">
-    <a class="nav-link" href="tables.html">
+    <a class="nav-link" href="{{route('order.index')}}">
         <i class="fas fa-fw fa-dollar-sign"></i>
-        <span>Pesanan</span></a>
+        <span>Order</span></a>
 </li>
 
 
